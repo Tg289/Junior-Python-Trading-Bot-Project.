@@ -25,4 +25,9 @@ This repository contains a **FULL PROJECT** implementation for the assignment: a
 ```bash
 python -m venv .venv
 source .venv/bin/activate # on Windows: .venv\Scripts\activate
+
+## Export your API credentials as environment variables (recommended):
+
+export BINANCE_API_KEY=your_key_here
+export BINANCE_API_SECRET=your_secret_here
 pip install -r requirements.txt
